@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Launch Smart Lock Intent</title>
+<body>
+  <p>Tap to launch:</p>
+  <a href="intent://com.google.android.gms/#Intent;scheme=promote_smartlock_scheme;end">
+    Open Smart Lock
+  </a>
+  <script>
+    // Auto-open the intent (may be blocked by browsers)
+    window.location = 'intent://com.google.android.gms/#Intent;scheme=promote_smartlock_scheme;end';
+  </script>
+</body>
+</html>
